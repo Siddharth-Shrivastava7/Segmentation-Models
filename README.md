@@ -6,8 +6,6 @@ Multi ResUnet
 
 Unet ++
 
-Attention Unet
-
 CE-Net
 
 
