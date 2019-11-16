@@ -1,7 +1,13 @@
 # Segmentation-Models
 
-#Unet 
-#Multi ResUnet 
-#Unet ++
-#CE-NET 
-# Attention Unet 
+# Unet
+
+# Multi ResUnet 
+
+# Unet ++
+
+# Attention Unet
+
+# CE-Net
+
+
