@@ -1,0 +1,25 @@
+Batch Size - 12 (both valid and in train)
+No of Training Images - 900 
+No of Validation Images - 200 
+
+
+GPU - Nvidia tesla p100, 16 Gb ( Virtual RAM )
+CUDA - 10.0 version
+Framework - Pytorch 
+
+Optimiser- Adam 
+Initial Learing Rate - 2e-4 
+Learning Rate Schedular - divide by a factor of 2 when for 10 epochs valid CE loss is less than best valid CE loss.  
+Earlystopping -> Patience = 20 ( Stop training... when for 20 epochs valid CE loss is less than best valid CE loss)
+
+Input_size = (512,512,3)
+Mask_size = (512,512)
+
+
+
+  
+
+
+
+
+
