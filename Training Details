@@ -16,7 +16,7 @@ Input_size = (256,256,3)
 Mask_size = (256,256)
 
 
-# cuda error aa rha tha jab batch = 12 liya aur 512 size in Unet ++ m, so ye config m chala rha hu 
+# cuda error aa rha tha jab batch = 12 liya aur 512 size in Unet++ m, so ye config m chala rha hu 
 
 
 
