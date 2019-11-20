@@ -1,0 +1,30 @@
+Batch Size - 8 (both valid and in train)
+No of Training Images - 900 
+No of Validation Images - 200 
+# epochs = 100
+
+
+GPU - Nvidia tesla p100, 16 Gb ( Virtual RAM )
+CUDA - 10.0 version
+Framework - Pytorch 
+
+Optimiser- Adam 
+Initial Learing Rate - 2e-4 
+Learning Rate Schedular - divide by a factor of 2 when for 10 epochs valid CE loss is less than best valid CE loss.  
+Earlystopping -> Patience = 20 ( Stop training... when for 20 epochs valid CE loss is less than best valid CE loss)
+
+Input_size = (256,256,3)
+Mask_size = (256,256)
+
+
+# cuda error aa rha tha jab batch = 12 liya aur 512 size in Unet++ m, so ye config m chala rha hu 
+
+
+
+
+  
+
+
+
+
+
